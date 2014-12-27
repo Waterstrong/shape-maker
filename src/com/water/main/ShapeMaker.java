@@ -1,5 +1,6 @@
 package com.water.main;
 
+
 import com.water.decorator.Border;
 import com.water.decorator.Red;
 import com.water.shape.Circle;
@@ -10,7 +11,7 @@ import com.water.shape.Shape;
  * Created by water on 14-12-21.
  */
 public class ShapeMaker {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         Shape rectangle = new Rectangle();
         rectangle.draw();
@@ -29,8 +30,6 @@ public class ShapeMaker {
 
         Shape borderCircle = new Border(new Circle());
         borderCircle.draw();
-
-
 
 
     }
